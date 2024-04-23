@@ -44,7 +44,6 @@ export const wordEndingChanger = (function () {
   };
 })();
 
-
 // Функция для преобразования секунд в формат чч:мм
 export function formatTime(seconds) {
   const hours = Math.floor(seconds / 3600);
